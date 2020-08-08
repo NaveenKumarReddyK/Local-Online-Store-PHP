@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#at,#pt{
+    font-size: 40px;
+    text-align: center;
+}
+.address{
+    height: 450px;
+    width: 500px;
+    background-color: rgb(139, 139, 235);
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#fname,#email,#address{
+    border: 0;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    background-color: rgb(245, 205, 190);
+    font-size: 17px;
+    margin-left: 50px;
+    
+}
+#fn,#e,#addr{
+    margin-left: 40px;}
+#fname:focus,#email:focus,#address:focus{
+    outline: 0;
+    border: 2px solid rgb(238, 24, 70);
+    background-color: rgb(238, 147, 147);
+}
+.payment{
+    height: 450px;
+    width: 500px;
+    background-color: rgb(97, 231, 186);
+    border-radius: 2px;
+    margin-left: 700px;
+    margin-top: -450px;
+}
+#nameoncard,#cno,#exp,#cvv{
+    border: 0;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    background-color: rgb(245, 205, 190);
+    font-size: 17px;
+    margin-left: 50px;
+    color: black;
+}
+#fnc,#cardno,#expiry{
+    margin-left: 50px;
+}
+#nameoncard:focus,#cno:focus,#cvv:focus,#exp:focus{
+    outline: 0;
+    border: 2px solid rgb(238, 24, 70);
+    background-color: rgb(238, 147, 147);
+}
+#exp,#cvv{
+    width:120px;
+
+}
+#cvv{
+    margin-left: 270px;
+    margin-top: -105px;
+}
+#cvno{
+    position: relative;
+    margin-left: 270px;
+    top: -105px;
+}
+.pandg{
+    height: 150px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 500px;
+}
+.checkout,.goback{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#submit,#cancel{
+    margin-top: 40px;
+    /* margin-left: 30px; */
+    padding: 15px 20px ;
+    color:rgb(255, 255, 242);
+    background-color: #E1332D;
+    font-size: 25px;
+    border-radius:0px;
+    font-weight: bold;
+    border:0;
+}
+
+
+
